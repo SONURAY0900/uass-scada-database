@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="160" viewBox="0 0 160 160" role="img" aria-label="UASS SCADA Database">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0B3D91"/>
+      <stop offset="1" stop-color="#1E88E5"/>
+    </linearGradient>
+    <linearGradient id="disk" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#D6E6FA"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="4" y="4" width="152" height="152" rx="34" fill="url(#bg)"/>
+
+  <!-- signal waves (atmospheric sounding / telemetry) -->
+  <g fill="none" stroke="#7FD3FF" stroke-width="5" stroke-linecap="round">
+    <path d="M110 34 a16 16 0 0 1 16 16"/>
+    <path d="M110 22 a28 28 0 0 1 28 28" opacity="0.6"/>
+  </g>
+  <circle cx="110" cy="50" r="5" fill="#7FD3FF"/>
+
+  <!-- database cylinder -->
+  <g stroke="#0B3D91" stroke-width="3">
+    <path d="M40 58 v54 c0 9 18 16 38 16 s38-7 38-16 v-54" fill="url(#disk)"/>
+    <path d="M40 76 c0 9 18 16 38 16 s38-7 38-16" fill="none"/>
+    <path d="M40 94 c0 9 18 16 38 16 s38-7 38-16" fill="none"/>
+    <ellipse cx="78" cy="58" rx="38" ry="16" fill="#FFFFFF"/>
+  </g>
+
+  <!-- live data dots -->
+  <circle cx="98" cy="84" r="4" fill="#2ECC71"/>
+  <circle cx="98" cy="102" r="4" fill="#F5B700"/>
+  <circle cx="98" cy="120" r="4" fill="#E74C3C"/>
+</svg>
